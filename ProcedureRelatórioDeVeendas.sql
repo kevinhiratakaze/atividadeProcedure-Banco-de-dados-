@@ -1,6 +1,6 @@
 -- Database: projetoVenda
 
--- DROP DATABASE IF EXISTS "projetoVenda";
+-- Documento criado usando o pgAdmin4
 
 CREATE DATABASE "projetoVenda";
 
@@ -88,5 +88,6 @@ BEGIN
 END;
 $$;
 
+-- Chama o procedure e ver o resultado
 CALL Relatorio_Diario();
 
